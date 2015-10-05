@@ -8,6 +8,10 @@ import InputText from './InputText'
 import OutputText from './OutputText'
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.displayName = 'Home';
+  }
   getActions() {
     const {dispatch} = this.props;
     return Object.assign({},
@@ -23,6 +27,9 @@ class Home extends Component {
         <InputText
           value={text}
           onChange={actions.changeText}
+        />
+        <OutputText
+          value={text}
         />
       </main>
     );

@@ -4,14 +4,14 @@ import {addons} from 'react/addons';
 const {update} = addons;
 
 let defaultState = {
-  title: 'Home'
+  text: ''
 };
 
 export default function(state = defaultState, action) {
   switch (action.type) {
     case ActionTypes.TEXT_CHANGED:
       return update(state, {
-        title: {
+        text: {
           $set: action.payload.text
         }
       });
