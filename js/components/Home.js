@@ -4,8 +4,9 @@ import {bindActionCreators} from 'redux';
 import * as HomeActions from '../actions/HomeActions';
 import * as InputActions from '../actions/InputActions';
 import styles from '../../css/app.css';
-import InputText from './InputText'
-import OutputText from './OutputText'
+import InputPane from './InputPane'
+import OutputPane from './OutputPane'
+import Controls from './Controls';
 
 class Home extends Component {
   constructor(props) {
@@ -20,20 +21,23 @@ class Home extends Component {
     );
   }
   render() {
-    const {text} = this.props;
+    const {text, dirty} = this.props;
     const actions = this.getActions();
     return (
       <main>
-        <button
-          onClick={actions.save}
-        >Save</button>
-        <InputText
-          value={text}
-          onChange={actions.changeText}
+        <Controls
+          onSave={actions.save}
+          dirty={dirty}
         />
-        <OutputText
-          value={text}
-        />
+        <div className='row'>
+          <InputPane
+            value={text}
+            onChange={actions.changeText}
+          />
+          <OutputPane
+            value={text}
+          />
+        </div>
       </main>
     );
   }

@@ -6,10 +6,12 @@ import styles from '../../css/app.css';
 
 const marked = require('marked');
 
-class OutputText extends Component {
+import OutputText from './OutputText';
+
+class OutputPane extends Component {
   constructor(props) {
     super(props);
-    this.displayName = 'OutputText';
+    this.displayName = 'OutputPane';
   }
   createMarkup() {
     return {
@@ -18,20 +20,19 @@ class OutputText extends Component {
   }
   render() {
     const classNames = classnames(
-      styles['text-box'],
-      styles['text']
+      'one-half',
+      'column'
     );
     return (
-      <div
-        className={classNames}
-        dangerouslySetInnerHTML={this.createMarkup()}
-      />
+      <div className={classNames}>
+        <OutputText {...this.props}/>
+      </div>
     );
   }
 }
 
-OutputText.propTypes = {
+OutputPane.propTypes = {
   value: React.PropTypes.string.isRequired,
 };
 
-export default OutputText
+export default OutputPane

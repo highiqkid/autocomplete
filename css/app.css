@@ -1,5 +1,11 @@
+
 .text {
-  font-size: 2rem;
-  line-height: 1.5;
-  color: #FF0000cc;
+  font-family: "San Francisco", "Helvetica Neue", sans-serif;
+}
+
+.text-box {
+  color: #353535;
+  background: #f9f9f9;
+  width: 100%;
+  height: 4096px;
 }

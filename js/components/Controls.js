@@ -14,23 +14,22 @@ class InputText extends Component {
     this.props.onChange(e.target.value);
   }
   render() {
+    const {dirty, onSave} = this.props;
     const classNames = classnames(
-      styles['text-box'],
-      styles['text']
+      'row',
+      inputStyles['controls']
     );
     return (
-      <textarea
-        className={classNames}
-        onChange={this.handleChange.bind(this)}
-        value={this.props.value}
-      />
+      <div className={classNames}>
+        <button disabled={!dirty} onClick={onSave}>Save</button>
+      </div>
     );
   }
 }
 
 InputText.propTypes = {
-  value: React.PropTypes.string.isRequired,
-  onChange: React.PropTypes.func.isRequired
+  onSave: React.PropTypes.func.isRequired,
+  dirty: React.PropTypes.bool.isRequired
 };
 
 export default InputText

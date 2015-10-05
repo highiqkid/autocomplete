@@ -9,7 +9,7 @@ const store = configureStore();
 export default React.createClass({
   render() {
     return (
-      <div>
+      <div className='container'>
 
         {/* <Home /> is your app entry point */}
         <Provider store={store}>
