@@ -1,21 +1,46 @@
 import * as ActionTypes from '../constants/ActionTypes';
 import {addons} from 'react/addons';
+import {combineReducers} from 'redux';
+import {LOCAL_STORAGE_KEY} from '../constants/Constants';
 
+const localStorage = require('local-storage');
 const {update} = addons;
 
-let defaultState = {
-  text: ''
-};
+let localStorageState = {};
+try {
+  localStorageState = JSON.parse(localStorage.get(LOCAL_STORAGE_KEY)).Sample;
+}
+catch (e) {
 
-export default function(state = defaultState, action) {
+}
+const defaultState = Object.assign({
+  dirty: false,
+  text: ''
+}, localStorageState);
+
+const text = function(state = defaultState.text, action) {
   switch (action.type) {
     case ActionTypes.TEXT_CHANGED:
-      return update(state, {
-        text: {
-          $set: action.payload.text
-        }
-      });
+      return action.payload.text;
     default:
       return state;
   }
 }
+
+const dirty = function(state = defaultState.dirty, action) {
+  switch (action.type) {
+    case ActionTypes.SAVE:
+      return false;
+    case ActionTypes.TEXT_CHANGED:
+      return true;
+    default:
+      return state;
+  }
+}
+
+const state = combineReducers({
+  text,
+  dirty
+});
+
+export default state;

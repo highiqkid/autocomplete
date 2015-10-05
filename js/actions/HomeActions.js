@@ -1,8 +1,13 @@
-import {TITLE_CHANGED} from '../constants/ActionTypes';
+import {SAVE} from '../constants/ActionTypes';
+import {LOCAL_STORAGE_KEY} from '../constants/Constants';
 
-export function changeTitle(text) {
-  return {
-    type: TITLE_CHANGED,
-    text
+const localStorage = require('local-storage');
+
+export function save() {
+  return function(dispatch, getState) {
+    dispatch({
+      type: SAVE
+    });
+    localStorage.set(LOCAL_STORAGE_KEY, JSON.stringify(getState()));
   }
 }

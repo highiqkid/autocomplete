@@ -24,6 +24,9 @@ class Home extends Component {
     const actions = this.getActions();
     return (
       <main>
+        <button
+          onClick={actions.save}
+        >Save</button>
         <InputText
           value={text}
           onChange={actions.changeText}
