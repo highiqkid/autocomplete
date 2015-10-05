@@ -1,4 +1,7 @@
 import * as ActionTypes from '../constants/ActionTypes';
+import {addons} from 'react/addons';
+
+const {update} = addons;
 
 let defaultState = {
   title: 'Home'
@@ -6,8 +9,12 @@ let defaultState = {
 
 export default function(state = defaultState, action) {
   switch (action.type) {
-    case ActionTypes.TITLE_CHANGED:
-      return {...state, title: action.text};
+    case ActionTypes.TEXT_CHANGED:
+      return update(state, {
+        title: {
+          $set: action.payload.text
+        }
+      });
     default:
       return state;
   }

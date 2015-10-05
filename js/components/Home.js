@@ -2,18 +2,28 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as HomeActions from '../actions/HomeActions';
+import * as InputActions from '../actions/InputActions';
 import styles from '../../css/app.css';
+import InputText from './InputText'
+import OutputText from './OutputText'
 
 class Home extends Component {
+  getActions() {
+    const {dispatch} = this.props;
+    return Object.assign({},
+      bindActionCreators(HomeActions, dispatch),
+      bindActionCreators(InputActions, dispatch)
+    );
+  }
   render() {
-    const {title, dispatch} = this.props;
-    const actions = bindActionCreators(HomeActions, dispatch);
+    const {text} = this.props;
+    const actions = this.getActions();
     return (
       <main>
-        <h1 className={styles.text}>Welcome {title}!</h1>
-        <button onClick={e => actions.changeTitle(prompt())}>
-          Update Title
-        </button>
+        <InputText
+          value={text}
+          onChange={actions.changeText}
+        />
       </main>
     );
   }
