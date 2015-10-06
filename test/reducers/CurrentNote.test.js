@@ -1,4 +1,6 @@
-const {expect} = require('chai');
+const {
+  expect
+} = require('chai');
 const currentNote = require('../../js/reducers/CurrentNote.js');
 
 
@@ -12,7 +14,9 @@ describe('CurrentNote reducer', function() {
   });
   describe('unrecognized action', function() {
     it('should return the previous value', function() {
-      expect(currentNote(42, {type: 'NOOP'})).to.equal(42);
+      expect(currentNote(42, {
+        type: 'NOOP'
+      })).to.equal(42);
     });
   });
   describe('NOTE_CHANGED', function() {

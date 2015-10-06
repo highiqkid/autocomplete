@@ -1,7 +1,12 @@
 import * as ActionTypes from '../constants/ActionTypes';
-import {addons} from 'react/addons';
+import {
+  addons
+}
+from 'react/addons';
 
-const {update} = addons;
+const {
+  update
+} = addons;
 
 const createNote = function() {
   return {
@@ -34,7 +39,9 @@ const notes = function(state = [createNote()], action) {
       });
     case ActionTypes.NOTE_DELETED:
       return update(state, {
-        $splice: [[action.payload.noteId, 1]]
+        $splice: [
+          [action.payload.noteId, 1]
+        ]
       });
     default:
       return state;
