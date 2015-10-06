@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "DEBUG=true node server.js",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test" : "karma start"
   },
   "devDependencies": {
     "babel-core": "^5.8.25",
@@ -28,6 +29,7 @@
     "jsx-loader": "^0.13.2",
     "karma": "^0.13.10",
     "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.2",
     "karma-firefox-launcher": "^0.1.6",
     "karma-mocha": "^0.2.0",
     "karma-safari-launcher": "^0.1.1",
