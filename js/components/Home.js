@@ -25,10 +25,7 @@ class Home extends Component {
     const actions = this.getActions();
     return (
       <main>
-        <Controls
-          onSave={actions.save}
-          dirty={dirty}
-        />
+        <Controls/>
         <div className='row'>
           <InputPane
             value={text}

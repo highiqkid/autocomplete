@@ -24,7 +24,7 @@ class InputText extends Component {
         className={classNames}
         onChange={this.handleChange.bind(this)}
         value={this.props.value}
-        spellcheck={true}
+        spellCheck={true}
       />
     );
   }

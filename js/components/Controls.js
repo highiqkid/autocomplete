@@ -3,33 +3,25 @@ import React, {Component} from 'react';
 import classnames from 'classnames';
 
 import styles from '../../css/app.css';
-import inputStyles from '../../css/inputText.css';
 
-class InputText extends Component {
+class Controls extends Component {
   constructor(props) {
     super(props);
-    this.displayName = 'InputText';
-  }
-  handleChange(e) {
-    this.props.onChange(e.target.value);
+    this.displayName = 'Controls';
   }
   render() {
-    const {dirty, onSave} = this.props;
     const classNames = classnames(
       'row',
-      inputStyles['controls']
+      styles['controls']
     );
     return (
       <div className={classNames}>
-        <button disabled={!dirty} onClick={onSave}>Save</button>
       </div>
     );
   }
 }
 
-InputText.propTypes = {
-  onSave: React.PropTypes.func.isRequired,
-  dirty: React.PropTypes.bool.isRequired
+Controls.propTypes = {
 };
 
-export default InputText
+export default Controls
