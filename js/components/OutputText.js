@@ -33,7 +33,7 @@ class OutputText extends Component {
 }
 
 OutputText.propTypes = {
-  value: React.PropTypes.string.isRequired,
+  value: React.PropTypes.string.isRequired
 };
 
 export default OutputText

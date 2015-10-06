@@ -22,14 +22,17 @@ class InputPane extends Component {
     );
     return (
       <div className={classNames}>
-        <InputText {...this.props} />
+        <InputText {...this.props}/>
       </div>
     );
   }
 }
 
 InputPane.propTypes = {
-  value: React.PropTypes.string.isRequired,
+  note: React.PropTypes.shape({
+    text: React.PropTypes.string,
+    title: React.PropTypes.string,
+  }),
   onChange: React.PropTypes.func.isRequired,
 };
 

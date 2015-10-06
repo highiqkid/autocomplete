@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import * as HomeActions from '../actions/HomeActions';
+import * as ControlActions from '../actions/ControlActions';
 import * as InputActions from '../actions/InputActions';
 import styles from '../../css/app.css';
 import InputPane from './InputPane'
@@ -16,23 +16,27 @@ class Home extends Component {
   getActions() {
     const {dispatch} = this.props;
     return Object.assign({},
-      bindActionCreators(HomeActions, dispatch),
+      bindActionCreators(ControlActions, dispatch),
       bindActionCreators(InputActions, dispatch)
     );
   }
   render() {
-    const {text, dirty} = this.props;
+    const {notes, currentNote} = this.props;
     const actions = this.getActions();
     return (
       <main>
-        <Controls/>
+        <Controls {...this.props}
+          onNoteChanged={actions.changeNote}
+          onCreateNote={actions.createNote}
+          onTitleChanged={actions.changeTitle}
+        />
         <div className='row'>
           <InputPane
-            value={text}
+            note={notes[currentNote]}
             onChange={actions.changeText}
           />
           <OutputPane
-            value={text}
+            value={notes[currentNote].text}
           />
         </div>
       </main>
@@ -40,4 +44,4 @@ class Home extends Component {
   }
 }
 
-export default connect(state => state.Sample)(Home)
+export default connect(state => state)(Home)

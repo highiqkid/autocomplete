@@ -1,1 +1,2 @@
-export {default as Sample} from './Sample';
+export {default as notes} from './Notes';
+export {default as currentNote} from './CurrentNote';

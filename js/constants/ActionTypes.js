@@ -1,1 +1,4 @@
 export const TEXT_CHANGED = 'TEXT_CHANGED';
+export const NOTE_CREATED = 'NOTE_CREATED';
+export const NOTE_CHANGED = 'NOTE_CHANGED';
+export const TITLE_CHANGED = 'TITLE_CHANGED';

@@ -1,0 +1,25 @@
+.notes-dropdown {
+  width: 20%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.add-note {
+  font-size: 2em;
+  width: 10%;
+  vertical-align: top;
+  line-height: 1em;
+}
+
+.title-input {
+  width: 30%;
+}
+
+.notes-dropdown, .add-note, .title-input {
+  margin-right: 10px;
+}
+
+.first-row {
+  margin-top: 10px;
+}

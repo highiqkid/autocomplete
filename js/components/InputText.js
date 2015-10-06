@@ -23,7 +23,8 @@ class InputText extends Component {
       <textarea
         className={classNames}
         onChange={this.handleChange.bind(this)}
-        value={this.props.value}
+        value={this.props.note.text}
+        placeholder='Note content goes here...'
         spellCheck={true}
       />
     );
@@ -31,7 +32,10 @@ class InputText extends Component {
 }
 
 InputText.propTypes = {
-  value: React.PropTypes.string.isRequired,
+  note: React.PropTypes.shape({
+    text: React.PropTypes.string,
+    title: React.PropTypes.string,
+  }),
   onChange: React.PropTypes.func.isRequired
 };
 
