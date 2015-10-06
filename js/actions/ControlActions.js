@@ -1,4 +1,4 @@
-import {NOTE_CREATED, NOTE_CHANGED, TITLE_CHANGED} from '../constants/ActionTypes';
+import {NOTE_CREATED, NOTE_CHANGED, TITLE_CHANGED, NOTE_DELETED} from '../constants/ActionTypes';
 
 
 export function changeNote(noteId) {
@@ -33,5 +33,26 @@ export function changeTitle(title) {
         noteId: getState().currentNote
       }
     })
+  }
+}
+
+export function deleteNote() {
+  return function(dispatch, getState) {
+    const state = getState();
+    const currentNote = state.notes[state.currentNote];
+    if (currentNote.text.length > 0 || currentNote.title.length > 0) {
+      if (!window.confirm("Are you sure you want to delete this note?")) {
+        return;
+      }
+    }
+    dispatch({
+      type: NOTE_DELETED,
+      payload: {
+        noteId: state.currentNote
+      }
+    })
+    if (getState().notes.length === 0) {
+      createNote()(dispatch, getState);
+    }
   }
 }

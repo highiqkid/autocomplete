@@ -32,6 +32,10 @@ const notes = function(state = [createNote()], action) {
           }
         }
       });
+    case ActionTypes.NOTE_DELETED:
+      return update(state, {
+        $splice: [[action.payload.noteId, 1]]
+      });
     default:
       return state;
   }

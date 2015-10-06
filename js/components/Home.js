@@ -29,6 +29,7 @@ class Home extends Component {
           onNoteChanged={actions.changeNote}
           onCreateNote={actions.createNote}
           onTitleChanged={actions.changeTitle}
+          onDeleteNote={actions.deleteNote}
         />
         <div className='row'>
           <InputPane

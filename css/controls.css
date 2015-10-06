@@ -5,7 +5,7 @@
   text-overflow: ellipsis;
 }
 
-.add-note {
+.add-note, .delete-note {
   font-size: 2em;
   width: 10%;
   vertical-align: top;

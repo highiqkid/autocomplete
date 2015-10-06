@@ -44,6 +44,13 @@ class Controls extends Component {
           >
             +
           </button>
+          <button
+            className={controlStyles['delete-note']}
+            onClick={this.props.onDeleteNote}
+            title="Delete note"
+          >
+            -
+          </button>
         </div>
         <div className='row'>
           <input
@@ -62,6 +69,7 @@ class Controls extends Component {
 
 Controls.propTypes = {
   onCreateNote: React.PropTypes.func.isRequired,
+  onDeleteNote: React.PropTypes.func.isRequired,
   onTitleChanged: React.PropTypes.func.isRequired,
   onNoteChanged: React.PropTypes.func.isRequired,
   currentNote: React.PropTypes.number.isRequired,
