@@ -1,6 +1,6 @@
 import * as ActionTypes from '../constants/ActionTypes';
 
-const notes = function(state = 0, action) {
+const currentNote = function(state = 0, action) {
   switch (action.type) {
     case ActionTypes.NOTE_CHANGED:
       return action.payload.noteId;
@@ -16,4 +16,4 @@ const notes = function(state = 0, action) {
   }
 }
 
-export default notes
+export default currentNote
