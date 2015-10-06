@@ -16,13 +16,15 @@ class InputText extends Component {
   render() {
     const classNames = classnames(
       styles['text-box'],
-      styles['text']
+      styles['text'],
+      inputStyles['text-box']
     );
     return (
       <textarea
         className={classNames}
         onChange={this.handleChange.bind(this)}
         value={this.props.value}
+        spellcheck={true}
       />
     );
   }

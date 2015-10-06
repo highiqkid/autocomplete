@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import classnames from 'classnames';
 
 import styles from '../../css/app.css';
+import outputStyles from '../../css/outputText.css';
 
 const marked = require('marked');
 
@@ -19,7 +20,8 @@ class OutputText extends Component {
   render() {
     const classNames = classnames(
       styles['text-box'],
-      styles['text']
+      styles['text'],
+      outputStyles['text-box']
     );
     return (
       <div
