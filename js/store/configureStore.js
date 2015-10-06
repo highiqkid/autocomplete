@@ -2,7 +2,7 @@ import {createStore, applyMiddleware, combineReducers, compose} from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import * as reducers from '../reducers/index';
 import persistState from 'redux-localstorage';
-import LOCAL_STORAGE_KEY from '../constants/Constants';
+import {LOCAL_STORAGE_KEY, DEBUG_STORAGE_KEY} from '../constants/Constants';
 
 let createStoreWithMiddleware;
 
@@ -13,7 +13,7 @@ if (__DEV__) {
     applyMiddleware(thunkMiddleware),
     devTools(),
     persistState(undefined, {
-      key: LOCAL_STORAGE_KEY
+      key: DEBUG_STORAGE_KEY
     })
   )(createStore);
 } else {
