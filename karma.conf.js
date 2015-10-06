@@ -51,20 +51,26 @@ module.exports = function(config) {
       'karma-webpack',
       'karma-mocha',
       'karma-coverage',
-      'karma-chrome-launcher'
+      'karma-chrome-launcher',
+      'karma-mocha-reporter',
+      'karma-beep-reporter'
     ],
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress', 'coverage'],
+    reporters: ['mocha', 'beep', 'coverage'],
 
     coverageReporter: {
       dir: 'coverage',
       reporters: [
         { type: 'html', subdir: 'report-html' }
       ]
+    },
+
+    mochaReporter: {
+      output: 'minimal'
     },
 
     // web server port
