@@ -2,11 +2,22 @@ import {NOTE_CREATED, NOTE_CHANGED, TITLE_CHANGED, NOTE_DELETED} from '../consta
 
 
 export function changeNote(noteId) {
-  return {
-    type: NOTE_CHANGED,
-    payload: {
-      noteId
+  return function(dispatch, getState) {
+    const state = getState();
+    if (noteId === state.currentNote) {
+      return;
     }
+    const currentNote = state.notes[state.currentNote];
+    if (currentNote.title === '' && currentNote.text === '') {
+      deleteNote()(dispatch, getState);
+      noteId = noteId === 0 ? 0 : noteId - 1;
+    }
+    dispatch({
+      type: NOTE_CHANGED,
+      payload: {
+        noteId
+      }
+    })
   }
 }
 
@@ -15,22 +26,22 @@ export function createNote() {
     dispatch({
       type: NOTE_CREATED
     });
-    dispatch({
-      type: NOTE_CHANGED,
-      payload: {
-        noteId: getState().notes.length - 1
-      }
-    });
+    changeNote(getState().notes.length - 1)(dispatch, getState);
   }
 }
 
 export function changeTitle(title) {
   return function(dispatch, getState) {
+    const state = getState();
+    const currentNote = state.notes[state.currentNote];
+    if (currentNote.title === title) {
+      return;
+    }
     dispatch({
       type: TITLE_CHANGED,
       payload: {
         title,
-        noteId: getState().currentNote
+        noteId: state.currentNote
       }
     })
   }
