@@ -31,8 +31,7 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'js/*.js': ['webpack'],
-      'test/**/*.coffee': ['webpack'],
-      'js/**/*.js': ['coverage']
+      'test/**/*.coffee': ['webpack']
     },
 
     webpack: {
@@ -50,7 +49,6 @@ module.exports = function(config) {
     plugins: [
       'karma-webpack',
       'karma-mocha',
-      'karma-coverage',
       'karma-mocha-reporter',
       'karma-chrome-launcher'
     ],
@@ -59,14 +57,7 @@ module.exports = function(config) {
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['mocha', 'coverage'],
-
-    coverageReporter: {
-      dir: 'coverage',
-      reporters: [
-        { type: 'html', subdir: 'report-html' }
-      ]
-    },
+    reporters: ['mocha'],
 
     mochaReporter: {
       output: 'minimal'
