@@ -34,9 +34,6 @@ export function changeTitle(title) {
   return function(dispatch, getState) {
     const state = getState();
     const currentNote = state.notes[state.currentNote];
-    if (currentNote.title === title) {
-      return;
-    }
     dispatch({
       type: TITLE_CHANGED,
       payload: {
