@@ -25,11 +25,12 @@ module.exports = {
   ],
   module: {
     loaders: [
+      { test: /\.coffee$/, loaders: ['coffee']},
       { test: /\.js$/, loaders: ['react-hot', 'babel?optional[]=runtime&stage=0'], exclude: /node_modules/ },
       { test: /\.css$/, loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader') }
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.json']
+    extensions: ['', '.coffee', '.js', '.json']
   }
 };
