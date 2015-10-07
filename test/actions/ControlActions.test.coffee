@@ -1,8 +1,8 @@
-ControlActions = require('../../js/actions/ControlActions')
-ActionTypes = require('../../js/constants/ActionTypes')
-chai = require('chai')
-sinon = require('sinon')
-sinonChai = require('sinon-chai')
+ControlActions = require '../../js/actions/ControlActions'
+ActionTypes = require '../../js/constants/ActionTypes'
+chai = require 'chai'
+sinon = require 'sinon'
+sinonChai = require 'sinon-chai'
 chai.use sinonChai
 {spy} = sinon
 {expect} = chai
