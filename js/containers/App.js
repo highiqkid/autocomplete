@@ -11,6 +11,7 @@ export default React.createClass({
   render() {
     return (
       <div className={styles['body']}>
+        <a href="https://github.com/epmatsw/notepad" className={styles['github-banner']}>Check me out on Github!</a>
 
         {/* <Home /> is your app entry point */}
         <Provider store={store}>

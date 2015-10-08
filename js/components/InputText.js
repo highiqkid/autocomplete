@@ -16,7 +16,6 @@ class InputText extends Component {
   render() {
     const classNames = classnames(
       styles['text-box'],
-      styles['text'],
       inputStyles['text-box']
     );
     return (

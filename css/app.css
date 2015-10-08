@@ -1,5 +1,14 @@
 
-.text {
+.github-banner {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+@media (max-width: 999px) {
+  .github-banner {
+    display: none;
+  }
 }
 
 .text-box {

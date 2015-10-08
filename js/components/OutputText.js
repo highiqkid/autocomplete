@@ -20,7 +20,6 @@ class OutputText extends Component {
   render() {
     const classNames = classnames(
       styles['text-box'],
-      styles['text'],
       outputStyles['text-box']
     );
     return (
