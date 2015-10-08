@@ -33,7 +33,6 @@ export function createNote() {
 export function changeTitle(title) {
   return function(dispatch, getState) {
     const state = getState();
-    const currentNote = state.notes[state.currentNote];
     dispatch({
       type: TITLE_CHANGED,
       payload: {
