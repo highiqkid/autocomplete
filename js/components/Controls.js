@@ -34,7 +34,7 @@ class Controls extends Component {
         <div className={firstRowClassNames}>
           <select className={controlStyles['notes-dropdown']} onChange={this.handleNoteChange.bind(this)} value={this.props.currentNote}>
           {
-            this.props.notes.map( (note, index) => <option value={index} key={index}>{note.title}</option>)
+            this.props.notes.map( (note, index) => <option value={index} key={index}>{note.title || 'Untitled Note'}</option>)
           }
           </select>
           <button

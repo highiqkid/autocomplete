@@ -21,10 +21,12 @@ class OutputPane extends Component {
   render() {
     const classNames = classnames(
       'one-half',
-      'column'
+      'column',
+      styles['output-pane']
     );
     return (
       <div className={classNames}>
+        <span>Rendered output...</span>
         <OutputText {...this.props}/>
       </div>
     );

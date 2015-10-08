@@ -18,10 +18,12 @@ class InputPane extends Component {
   render() {
     const classNames = classnames(
       'one-half',
-      'column'
+      'column',
+      styles['input-pane']
     );
     return (
       <div className={classNames}>
+        <span>Raw markdown...</span>
         <InputText {...this.props}/>
       </div>
     );

@@ -7,6 +7,7 @@ import styles from '../../css/app.css';
 import InputPane from './InputPane'
 import OutputPane from './OutputPane'
 import Controls from './Controls';
+import classnames from 'classnames';
 
 class Home extends Component {
   constructor(props) {
@@ -23,15 +24,16 @@ class Home extends Component {
   render() {
     const {notes, currentNote} = this.props;
     const actions = this.getActions();
+    const textEntryClassNames = classnames('row', styles['text-entry-container']);
     return (
-      <main>
+      <main className={styles['main']}>
         <Controls {...this.props}
           onNoteChanged={actions.changeNote}
           onCreateNote={actions.createNote}
           onTitleChanged={actions.changeTitle}
           onDeleteNote={actions.deleteNote}
         />
-        <div className='row'>
+        <div className={textEntryClassNames}>
           <InputPane
             note={notes[currentNote]}
             onChange={actions.changeText}
