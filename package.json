@@ -15,7 +15,9 @@
   },
   "scripts": {
     "start": "DEBUG=true node server.js",
-    "build": "webpack -p",
+    "fastserver": "node server.js",
+    "build": "webpack -p --config webpack.production.js",
+    "build-dev": "webpack -p",
     "test": "karma start --single-run",
     "watch": "karma start"
   },
