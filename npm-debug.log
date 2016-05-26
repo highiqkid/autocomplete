@@ -1,0 +1,1385 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'redux-actions' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Users\Victor\Desktop\Ideaflow\notepad\package.json
+5 warn package.json notepad@0.1.0 No description
+6 warn package.json notepad@0.1.0 No repository field.
+7 warn package.json notepad@0.1.0 No README data
+8 warn package.json notepad@0.1.0 No license field.
+9 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\babel-core\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\babel-loader\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\babel-runtime\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\chai\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\classnames\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\coffee-loader\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\coffee-script\package.json
+16 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\css-loader\package.json
+17 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\cssnext-loader\package.json
+18 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\draft-js\package.json
+19 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\extract-text-webpack-plugin\package.json
+20 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\jsx-loader\package.json
+21 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma\package.json
+22 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma-chrome-launcher\package.json
+23 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma-coffee-preprocessor\package.json
+24 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma-mocha\package.json
+25 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma-mocha-reporter\package.json
+26 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\karma-webpack\package.json
+27 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\lodash\package.json
+28 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\marked\package.json
+29 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\mocha\package.json
+30 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\npm-debug.log\package.json
+31 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\react\package.json
+32 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\react-dom\package.json
+33 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\react-hot-loader\package.json
+34 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\react-redux\package.json
+35 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux\package.json
+36 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-devtools\package.json
+37 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-localstorage\package.json
+38 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-thunk\package.json
+39 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\sinon\package.json
+40 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\sinon-chai\package.json
+41 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\style-loader\package.json
+42 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\webpack\package.json
+43 verbose installManyTop reading scoped package data from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\webpack-dev-server\package.json
+44 info package.json mocha@2.5.3 No README data
+45 info package.json coffee-loader@0.7.2 No license field.
+46 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+47 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\package.json
+48 silly cache add args [ 'redux-actions', null ]
+49 verbose cache add spec redux-actions
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'redux-actions',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'redux-actions',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed redux-actions@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for redux-actions
+53 info addNameTag [ 'redux-actions', 'latest' ]
+54 silly mapToRegistry name redux-actions
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'redux-actions',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   name: 'redux-actions',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/redux-actions
+59 verbose addNameTag registry:https://registry.npmjs.org/redux-actions not in flight; fetching
+60 verbose request uri https://registry.npmjs.org/redux-actions
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 10:25:05 PM
+63 verbose request id 807d349594d2009c
+64 http request GET https://registry.npmjs.org/redux-actions
+65 http 200 https://registry.npmjs.org/redux-actions
+66 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+66 verbose headers   etag: '"AED57YSMU7XJGY0ZWHIAPYXJK"',
+66 verbose headers   'content-type': 'application/json',
+66 verbose headers   'content-encoding': 'gzip',
+66 verbose headers   'cache-control': 'max-age=300',
+66 verbose headers   'content-length': '3738',
+66 verbose headers   'accept-ranges': 'bytes',
+66 verbose headers   date: 'Thu, 26 May 2016 05:25:11 GMT',
+66 verbose headers   via: '1.1 varnish',
+66 verbose headers   age: '0',
+66 verbose headers   connection: 'keep-alive',
+66 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+66 verbose headers   'x-cache': 'HIT',
+66 verbose headers   'x-cache-hits': '1',
+66 verbose headers   'x-timer': 'S1464240311.406554,VS0,VE41',
+66 verbose headers   vary: 'Accept-Encoding' }
+67 silly get cb [ 200,
+67 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+67 silly get     etag: '"AED57YSMU7XJGY0ZWHIAPYXJK"',
+67 silly get     'content-type': 'application/json',
+67 silly get     'content-encoding': 'gzip',
+67 silly get     'cache-control': 'max-age=300',
+67 silly get     'content-length': '3738',
+67 silly get     'accept-ranges': 'bytes',
+67 silly get     date: 'Thu, 26 May 2016 05:25:11 GMT',
+67 silly get     via: '1.1 varnish',
+67 silly get     age: '0',
+67 silly get     connection: 'keep-alive',
+67 silly get     'x-served-by': 'cache-lax1427-LAX',
+67 silly get     'x-cache': 'HIT',
+67 silly get     'x-cache-hits': '1',
+67 silly get     'x-timer': 'S1464240311.406554,VS0,VE41',
+67 silly get     vary: 'Accept-Encoding' } ]
+68 verbose get saving redux-actions to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\redux-actions\.cache.json
+69 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+70 silly addNameTag next cb for redux-actions with tag latest
+71 silly addNamed redux-actions@0.9.1
+72 verbose addNamed "0.9.1" is a plain semver version for redux-actions
+73 silly mapToRegistry name redux-actions
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'redux-actions',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   name: 'redux-actions',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/redux-actions
+78 verbose addRemoteTarball https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz not in flight; adding
+79 verbose addRemoteTarball [ 'https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz',
+79 verbose addRemoteTarball   'a72767654bc21424c3df3f6240780ffa8872783c' ]
+80 info retry fetch attempt 1 at 10:25:06 PM
+81 info attempt registry request try #1 at 10:25:06 PM
+82 http fetch GET https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz
+83 http fetch 200 https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz
+84 silly fetchAndShaCheck shasum a72767654bc21424c3df3f6240780ffa8872783c
+85 verbose addTmpTarball C:\Users\Victor\AppData\Local\Temp\npm-10560-8349f6d4\registry.npmjs.org\redux-actions\-\redux-actions-0.9.1.tgz not in flight; adding
+86 verbose addTmpTarball already have metadata; skipping unpack for redux-actions@0.9.1
+87 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+88 silly cache afterAdd redux-actions@0.9.1
+89 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\redux-actions\0.9.1\package\package.json not in flight; writing
+90 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+91 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\redux-actions\0.9.1\package\package.json written
+92 silly install resolved [ { name: 'redux-actions',
+92 silly install resolved     version: '0.9.1',
+92 silly install resolved     description: 'Flux Standard Action utlities for Redux',
+92 silly install resolved     main: 'lib/index.js',
+92 silly install resolved     scripts: { test: 'make test', prepublish: 'make clean build' },
+92 silly install resolved     files: [ 'src', 'lib' ],
+92 silly install resolved     keywords: [ 'flux', 'redux', 'fsa', 'actions' ],
+92 silly install resolved     author: { name: 'Andrew Clark', email: 'acdlite@me.com' },
+92 silly install resolved     bugs: { url: 'https://github.com/acdlite/redux-actions/issues' },
+92 silly install resolved     homepage: 'https://github.com/acdlite/redux-actions',
+92 silly install resolved     repository:
+92 silly install resolved      { type: 'git',
+92 silly install resolved        url: 'git+https://github.com/acdlite/redux-actions.git' },
+92 silly install resolved     license: 'MIT',
+92 silly install resolved     devDependencies:
+92 silly install resolved      { babel: '^5.6.14',
+92 silly install resolved        'babel-core': '^5.6.15',
+92 silly install resolved        'babel-eslint': '^3.1.20',
+92 silly install resolved        chai: '^3.0.0',
+92 silly install resolved        eslint: '^0.24.0',
+92 silly install resolved        'eslint-config-airbnb': '0.0.6',
+92 silly install resolved        'lodash.isplainobject': '^3.2.0',
+92 silly install resolved        mocha: '^2.2.5' },
+92 silly install resolved     dependencies:
+92 silly install resolved      { 'flux-standard-action': '^0.6.0',
+92 silly install resolved        'reduce-reducers': '^0.1.0' },
+92 silly install resolved     gitHead: 'c3e0816caa878bc89b902453d1b895e8d7f9db97',
+92 silly install resolved     _id: 'redux-actions@0.9.1',
+92 silly install resolved     _shasum: 'a72767654bc21424c3df3f6240780ffa8872783c',
+92 silly install resolved     _from: 'redux-actions@latest',
+92 silly install resolved     _npmVersion: '3.3.6',
+92 silly install resolved     _nodeVersion: '5.0.0',
+92 silly install resolved     _npmUser: { name: 'acdlite', email: 'acdlite@me.com' },
+92 silly install resolved     dist:
+92 silly install resolved      { shasum: 'a72767654bc21424c3df3f6240780ffa8872783c',
+92 silly install resolved        tarball: 'https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz' },
+92 silly install resolved     maintainers: [ [Object] ],
+92 silly install resolved     directories: {},
+92 silly install resolved     _resolved: 'https://registry.npmjs.org/redux-actions/-/redux-actions-0.9.1.tgz' } ]
+93 info install redux-actions@0.9.1 into C:\Users\Victor\Desktop\Ideaflow\notepad
+94 info installOne redux-actions@0.9.1
+95 verbose installOne of redux-actions to C:\Users\Victor\Desktop\Ideaflow\notepad not in flight; installing
+96 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+97 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\redux-actions-9092e2b55bee331b.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+98 silly install write writing redux-actions 0.9.1 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+99 verbose unbuild node_modules\redux-actions
+100 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+101 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+102 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\redux-actions\0.9.1\package.tgz
+103 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+104 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions is being purged
+105 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+106 silly gunzTarPerm modes [ '777', '666' ]
+107 silly gunzTarPerm extractEntry package.json
+108 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+111 silly gunzTarPerm extractEntry lib/createAction.js
+112 silly gunzTarPerm modified mode [ 'lib/createAction.js', 420, 438 ]
+113 silly gunzTarPerm extractEntry lib/handleAction.js
+114 silly gunzTarPerm modified mode [ 'lib/handleAction.js', 420, 438 ]
+115 silly gunzTarPerm extractEntry lib/handleActions.js
+116 silly gunzTarPerm modified mode [ 'lib/handleActions.js', 420, 438 ]
+117 silly gunzTarPerm extractEntry lib/index.js
+118 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+119 silly gunzTarPerm extractEntry lib/ownKeys.js
+120 silly gunzTarPerm modified mode [ 'lib/ownKeys.js', 420, 438 ]
+121 silly gunzTarPerm extractEntry lib/__tests__/createAction-test.js
+122 silly gunzTarPerm modified mode [ 'lib/__tests__/createAction-test.js', 420, 438 ]
+123 silly gunzTarPerm extractEntry lib/__tests__/handleAction-test.js
+124 silly gunzTarPerm modified mode [ 'lib/__tests__/handleAction-test.js', 420, 438 ]
+125 silly gunzTarPerm extractEntry lib/__tests__/handleActions-test.js
+126 silly gunzTarPerm modified mode [ 'lib/__tests__/handleActions-test.js', 420, 438 ]
+127 silly gunzTarPerm extractEntry lib/__tests__/init.js
+128 silly gunzTarPerm modified mode [ 'lib/__tests__/init.js', 420, 438 ]
+129 silly gunzTarPerm extractEntry src/createAction.js
+130 silly gunzTarPerm modified mode [ 'src/createAction.js', 420, 438 ]
+131 silly gunzTarPerm extractEntry src/handleAction.js
+132 silly gunzTarPerm modified mode [ 'src/handleAction.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry src/handleActions.js
+134 silly gunzTarPerm modified mode [ 'src/handleActions.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry src/index.js
+136 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry src/ownKeys.js
+138 silly gunzTarPerm modified mode [ 'src/ownKeys.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry src/__tests__/createAction-test.js
+140 silly gunzTarPerm modified mode [ 'src/__tests__/createAction-test.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry src/__tests__/handleAction-test.js
+142 silly gunzTarPerm modified mode [ 'src/__tests__/handleAction-test.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry src/__tests__/handleActions-test.js
+144 silly gunzTarPerm modified mode [ 'src/__tests__/handleActions-test.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry src/__tests__/init.js
+146 silly gunzTarPerm modified mode [ 'src/__tests__/init.js', 420, 438 ]
+147 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\package.json
+148 info preinstall redux-actions@0.9.1
+149 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\package.json
+150 silly prepareForInstallMany adding flux-standard-action@^0.6.0 from redux-actions dependencies
+151 silly prepareForInstallMany adding reduce-reducers@^0.1.0 from redux-actions dependencies
+152 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\package.json
+153 silly cache add args [ 'flux-standard-action@^0.6.0', null ]
+154 verbose cache add spec flux-standard-action@^0.6.0
+155 silly cache add args [ 'reduce-reducers@^0.1.0', null ]
+156 verbose cache add spec reduce-reducers@^0.1.0
+157 silly cache add parsed spec Result {
+157 silly cache add   raw: 'flux-standard-action@^0.6.0',
+157 silly cache add   scope: null,
+157 silly cache add   name: 'flux-standard-action',
+157 silly cache add   rawSpec: '^0.6.0',
+157 silly cache add   spec: '>=0.6.0 <0.7.0',
+157 silly cache add   type: 'range' }
+158 silly addNamed flux-standard-action@>=0.6.0 <0.7.0
+159 verbose addNamed ">=0.6.0 <0.7.0" is a valid semver range for flux-standard-action
+160 silly addNameRange { name: 'flux-standard-action',
+160 silly addNameRange   range: '>=0.6.0 <0.7.0',
+160 silly addNameRange   hasData: false }
+161 silly mapToRegistry name flux-standard-action
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'flux-standard-action',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   name: 'flux-standard-action',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri https://registry.npmjs.org/flux-standard-action
+166 verbose addNameRange registry:https://registry.npmjs.org/flux-standard-action not in flight; fetching
+167 silly cache add parsed spec Result {
+167 silly cache add   raw: 'reduce-reducers@^0.1.0',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'reduce-reducers',
+167 silly cache add   rawSpec: '^0.1.0',
+167 silly cache add   spec: '>=0.1.0 <0.2.0',
+167 silly cache add   type: 'range' }
+168 silly addNamed reduce-reducers@>=0.1.0 <0.2.0
+169 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for reduce-reducers
+170 silly addNameRange { name: 'reduce-reducers',
+170 silly addNameRange   range: '>=0.1.0 <0.2.0',
+170 silly addNameRange   hasData: false }
+171 silly mapToRegistry name reduce-reducers
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry data Result {
+174 silly mapToRegistry   raw: 'reduce-reducers',
+174 silly mapToRegistry   scope: null,
+174 silly mapToRegistry   name: 'reduce-reducers',
+174 silly mapToRegistry   rawSpec: '',
+174 silly mapToRegistry   spec: 'latest',
+174 silly mapToRegistry   type: 'tag' }
+175 silly mapToRegistry uri https://registry.npmjs.org/reduce-reducers
+176 verbose addNameRange registry:https://registry.npmjs.org/reduce-reducers not in flight; fetching
+177 verbose request uri https://registry.npmjs.org/flux-standard-action
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 10:25:06 PM
+180 http request GET https://registry.npmjs.org/flux-standard-action
+181 verbose request uri https://registry.npmjs.org/reduce-reducers
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 10:25:06 PM
+184 http request GET https://registry.npmjs.org/reduce-reducers
+185 http 200 https://registry.npmjs.org/reduce-reducers
+186 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+186 verbose headers   etag: '"3VKXXX93G3QE06XPHL6DKH9XL"',
+186 verbose headers   'content-type': 'application/json',
+186 verbose headers   'content-encoding': 'gzip',
+186 verbose headers   'cache-control': 'max-age=300',
+186 verbose headers   'content-length': '1623',
+186 verbose headers   'accept-ranges': 'bytes',
+186 verbose headers   date: 'Thu, 26 May 2016 05:25:11 GMT',
+186 verbose headers   via: '1.1 varnish',
+186 verbose headers   age: '90',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+186 verbose headers   'x-cache': 'HIT',
+186 verbose headers   'x-cache-hits': '1',
+186 verbose headers   'x-timer': 'S1464240311.831307,VS0,VE0',
+186 verbose headers   vary: 'Accept-Encoding' }
+187 silly get cb [ 200,
+187 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+187 silly get     etag: '"3VKXXX93G3QE06XPHL6DKH9XL"',
+187 silly get     'content-type': 'application/json',
+187 silly get     'content-encoding': 'gzip',
+187 silly get     'cache-control': 'max-age=300',
+187 silly get     'content-length': '1623',
+187 silly get     'accept-ranges': 'bytes',
+187 silly get     date: 'Thu, 26 May 2016 05:25:11 GMT',
+187 silly get     via: '1.1 varnish',
+187 silly get     age: '90',
+187 silly get     connection: 'keep-alive',
+187 silly get     'x-served-by': 'cache-lax1424-LAX',
+187 silly get     'x-cache': 'HIT',
+187 silly get     'x-cache-hits': '1',
+187 silly get     'x-timer': 'S1464240311.831307,VS0,VE0',
+187 silly get     vary: 'Accept-Encoding' } ]
+188 verbose get saving reduce-reducers to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\reduce-reducers\.cache.json
+189 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+190 silly addNameRange number 2 { name: 'reduce-reducers',
+190 silly addNameRange   range: '>=0.1.0 <0.2.0',
+190 silly addNameRange   hasData: true }
+191 silly addNameRange versions [ 'reduce-reducers', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+192 silly addNamed reduce-reducers@0.1.2
+193 verbose addNamed "0.1.2" is a plain semver version for reduce-reducers
+194 silly mapToRegistry name reduce-reducers
+195 silly mapToRegistry using default registry
+196 silly mapToRegistry registry https://registry.npmjs.org/
+197 silly mapToRegistry data Result {
+197 silly mapToRegistry   raw: 'reduce-reducers',
+197 silly mapToRegistry   scope: null,
+197 silly mapToRegistry   name: 'reduce-reducers',
+197 silly mapToRegistry   rawSpec: '',
+197 silly mapToRegistry   spec: 'latest',
+197 silly mapToRegistry   type: 'tag' }
+198 silly mapToRegistry uri https://registry.npmjs.org/reduce-reducers
+199 verbose addRemoteTarball https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz not in flight; adding
+200 verbose addRemoteTarball [ 'https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz',
+200 verbose addRemoteTarball   'fa1b4718bc5292a71ddd1e5d839c9bea9770f14b' ]
+201 info retry fetch attempt 1 at 10:25:06 PM
+202 info attempt registry request try #1 at 10:25:06 PM
+203 http fetch GET https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz
+204 http fetch 200 https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz
+205 silly fetchAndShaCheck shasum fa1b4718bc5292a71ddd1e5d839c9bea9770f14b
+206 verbose addTmpTarball C:\Users\Victor\AppData\Local\Temp\npm-10560-8349f6d4\registry.npmjs.org\reduce-reducers\-\reduce-reducers-0.1.2.tgz not in flight; adding
+207 verbose addTmpTarball already have metadata; skipping unpack for reduce-reducers@0.1.2
+208 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+209 silly cache afterAdd reduce-reducers@0.1.2
+210 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\reduce-reducers\0.1.2\package\package.json not in flight; writing
+211 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+212 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\reduce-reducers\0.1.2\package\package.json written
+213 http 200 https://registry.npmjs.org/flux-standard-action
+214 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+214 verbose headers   etag: '"7O5M344SVU058ANQJ7F05BCW7"',
+214 verbose headers   'content-type': 'application/json',
+214 verbose headers   'content-encoding': 'gzip',
+214 verbose headers   'cache-control': 'max-age=300',
+214 verbose headers   'content-length': '3325',
+214 verbose headers   'accept-ranges': 'bytes',
+214 verbose headers   date: 'Thu, 26 May 2016 05:25:11 GMT',
+214 verbose headers   via: '1.1 varnish',
+214 verbose headers   age: '0',
+214 verbose headers   connection: 'keep-alive',
+214 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+214 verbose headers   'x-cache': 'MISS',
+214 verbose headers   'x-cache-hits': '0',
+214 verbose headers   'x-timer': 'S1464240311.778040,VS0,VE175',
+214 verbose headers   vary: 'Accept-Encoding' }
+215 silly get cb [ 200,
+215 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+215 silly get     etag: '"7O5M344SVU058ANQJ7F05BCW7"',
+215 silly get     'content-type': 'application/json',
+215 silly get     'content-encoding': 'gzip',
+215 silly get     'cache-control': 'max-age=300',
+215 silly get     'content-length': '3325',
+215 silly get     'accept-ranges': 'bytes',
+215 silly get     date: 'Thu, 26 May 2016 05:25:11 GMT',
+215 silly get     via: '1.1 varnish',
+215 silly get     age: '0',
+215 silly get     connection: 'keep-alive',
+215 silly get     'x-served-by': 'cache-lax1427-LAX',
+215 silly get     'x-cache': 'MISS',
+215 silly get     'x-cache-hits': '0',
+215 silly get     'x-timer': 'S1464240311.778040,VS0,VE175',
+215 silly get     vary: 'Accept-Encoding' } ]
+216 verbose get saving flux-standard-action to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\flux-standard-action\.cache.json
+217 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+218 silly addNameRange number 2 { name: 'flux-standard-action',
+218 silly addNameRange   range: '>=0.6.0 <0.7.0',
+218 silly addNameRange   hasData: true }
+219 silly addNameRange versions [ 'flux-standard-action',
+219 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.1', '0.4.0', '0.5.0', '0.6.0', '0.6.1' ] ]
+220 silly addNamed flux-standard-action@0.6.1
+221 verbose addNamed "0.6.1" is a plain semver version for flux-standard-action
+222 silly mapToRegistry name flux-standard-action
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry data Result {
+225 silly mapToRegistry   raw: 'flux-standard-action',
+225 silly mapToRegistry   scope: null,
+225 silly mapToRegistry   name: 'flux-standard-action',
+225 silly mapToRegistry   rawSpec: '',
+225 silly mapToRegistry   spec: 'latest',
+225 silly mapToRegistry   type: 'tag' }
+226 silly mapToRegistry uri https://registry.npmjs.org/flux-standard-action
+227 verbose addRemoteTarball https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz not in flight; adding
+228 verbose addRemoteTarball [ 'https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz',
+228 verbose addRemoteTarball   '6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2' ]
+229 info retry fetch attempt 1 at 10:25:06 PM
+230 info attempt registry request try #1 at 10:25:06 PM
+231 http fetch GET https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz
+232 http fetch 200 https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz
+233 silly fetchAndShaCheck shasum 6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2
+234 verbose addTmpTarball C:\Users\Victor\AppData\Local\Temp\npm-10560-8349f6d4\registry.npmjs.org\flux-standard-action\-\flux-standard-action-0.6.1.tgz not in flight; adding
+235 verbose addTmpTarball already have metadata; skipping unpack for flux-standard-action@0.6.1
+236 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+237 silly cache afterAdd flux-standard-action@0.6.1
+238 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\flux-standard-action\0.6.1\package\package.json not in flight; writing
+239 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+240 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\flux-standard-action\0.6.1\package\package.json written
+241 silly install resolved [ { name: 'reduce-reducers',
+241 silly install resolved     version: '0.1.2',
+241 silly install resolved     description: 'Reduce multiple reducers into a single reducer',
+241 silly install resolved     main: 'lib/index.js',
+241 silly install resolved     scripts: { test: 'make test', prepublish: 'make clean build' },
+241 silly install resolved     keywords: [ 'reduce', 'reducers', 'functional', 'fp', 'redux' ],
+241 silly install resolved     author: { name: 'Andrew Clark', email: 'acdlite@me.com' },
+241 silly install resolved     bugs: { url: 'https://github.com/acdlite/reduce-reducers/issues' },
+241 silly install resolved     homepage: 'https://github.com/acdlite/reduce-reducers',
+241 silly install resolved     repository:
+241 silly install resolved      { type: 'git',
+241 silly install resolved        url: 'git+https://github.com/acdlite/reduce-reducers.git' },
+241 silly install resolved     license: 'MIT',
+241 silly install resolved     devDependencies:
+241 silly install resolved      { babel: '^5.6.14',
+241 silly install resolved        'babel-core': '^5.6.15',
+241 silly install resolved        'babel-eslint': '^4.1.8',
+241 silly install resolved        chai: '^3.0.0',
+241 silly install resolved        eslint: '^0.24.0',
+241 silly install resolved        'eslint-config-airbnb': '0.0.6',
+241 silly install resolved        mocha: '^2.2.5' },
+241 silly install resolved     gitHead: '2d61f15299e9df92fe28c08530c4b2636fd63aac',
+241 silly install resolved     _id: 'reduce-reducers@0.1.2',
+241 silly install resolved     _shasum: 'fa1b4718bc5292a71ddd1e5d839c9bea9770f14b',
+241 silly install resolved     _from: 'reduce-reducers@>=0.1.0 <0.2.0',
+241 silly install resolved     _npmVersion: '3.3.6',
+241 silly install resolved     _nodeVersion: '5.0.0',
+241 silly install resolved     _npmUser: { name: 'acdlite', email: 'acdlite@me.com' },
+241 silly install resolved     dist:
+241 silly install resolved      { shasum: 'fa1b4718bc5292a71ddd1e5d839c9bea9770f14b',
+241 silly install resolved        tarball: 'https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz' },
+241 silly install resolved     maintainers: [ [Object] ],
+241 silly install resolved     _npmOperationalInternal:
+241 silly install resolved      { host: 'packages-6-west.internal.npmjs.com',
+241 silly install resolved        tmp: 'tmp/reduce-reducers-0.1.2.tgz_1454442974225_0.548715271288529' },
+241 silly install resolved     directories: {},
+241 silly install resolved     _resolved: 'https://registry.npmjs.org/reduce-reducers/-/reduce-reducers-0.1.2.tgz' },
+241 silly install resolved   { name: 'flux-standard-action',
+241 silly install resolved     version: '0.6.1',
+241 silly install resolved     description: 'A human-friendly standard for Flux action objects',
+241 silly install resolved     main: 'lib/index.js',
+241 silly install resolved     scripts: { test: 'make test', prepublish: 'make clean build' },
+241 silly install resolved     keywords: [ 'flux', 'redux', 'actions', 'fsa' ],
+241 silly install resolved     author: { name: 'Andrew Clark', email: 'acdlite@me.com' },
+241 silly install resolved     license: 'MIT',
+241 silly install resolved     devDependencies:
+241 silly install resolved      { babel: '^5.6.14',
+241 silly install resolved        'babel-core': '^5.6.15',
+241 silly install resolved        'babel-eslint': '^4.1.8',
+241 silly install resolved        chai: '^3.0.0',
+241 silly install resolved        eslint: '^0.24.0',
+241 silly install resolved        'eslint-config-airbnb': '0.0.6',
+241 silly install resolved        mocha: '^2.2.5' },
+241 silly install resolved     dependencies: { 'lodash.isplainobject': '^3.2.0' },
+241 silly install resolved     gitHead: '96349384bcf478fcba8c92a6e2a03798fa8a5a3b',
+241 silly install resolved     _id: 'flux-standard-action@0.6.1',
+241 silly install resolved     _shasum: '6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2',
+241 silly install resolved     _from: 'flux-standard-action@>=0.6.0 <0.7.0',
+241 silly install resolved     _npmVersion: '3.3.6',
+241 silly install resolved     _nodeVersion: '5.0.0',
+241 silly install resolved     _npmUser: { name: 'acdlite', email: 'acdlite@me.com' },
+241 silly install resolved     dist:
+241 silly install resolved      { shasum: '6f34211b94834ea1c3cc30f4e7afad3d0fbf71a2',
+241 silly install resolved        tarball: 'https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz' },
+241 silly install resolved     maintainers: [ [Object] ],
+241 silly install resolved     _npmOperationalInternal:
+241 silly install resolved      { host: 'packages-5-east.internal.npmjs.com',
+241 silly install resolved        tmp: 'tmp/flux-standard-action-0.6.1.tgz_1454443066301_0.11490102671086788' },
+241 silly install resolved     directories: {},
+241 silly install resolved     _resolved: 'https://registry.npmjs.org/flux-standard-action/-/flux-standard-action-0.6.1.tgz' } ]
+242 info install reduce-reducers@0.1.2 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+243 info install flux-standard-action@0.6.1 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+244 info installOne reduce-reducers@0.1.2
+245 verbose installOne of reduce-reducers to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions not in flight; installing
+246 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+247 info installOne flux-standard-action@0.6.1
+248 verbose installOne of flux-standard-action to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions not in flight; installing
+249 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+250 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\flux-standard-action-156aba3bee85c3c9.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+251 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\reduce-reducers-55084e1351a72772.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+252 silly install write writing flux-standard-action 0.6.1 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+253 silly install write writing reduce-reducers 0.1.2 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+254 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action
+255 verbose unbuild node_modules\redux-actions\node_modules\reduce-reducers
+256 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+257 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+258 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\flux-standard-action\0.6.1\package.tgz
+259 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+260 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action is being purged
+261 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+262 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+263 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+264 silly gunzTarPerm modes [ '777', '666' ]
+265 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\reduce-reducers\0.1.2\package.tgz
+266 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+267 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers is being purged
+268 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+269 silly gunzTarPerm modes [ '777', '666' ]
+270 silly gunzTarPerm extractEntry package.json
+271 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+272 silly gunzTarPerm extractEntry package.json
+273 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+274 silly gunzTarPerm extractEntry .npmignore
+275 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+276 silly gunzTarPerm extractEntry README.md
+277 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+278 silly gunzTarPerm extractEntry .npmignore
+279 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+280 silly gunzTarPerm extractEntry README.md
+281 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+282 silly gunzTarPerm extractEntry lib/index.js
+283 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+284 silly gunzTarPerm extractEntry lib/__tests__/init.js
+285 silly gunzTarPerm modified mode [ 'lib/__tests__/init.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry lib/index.js
+287 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry lib/__tests__/init.js
+289 silly gunzTarPerm modified mode [ 'lib/__tests__/init.js', 420, 438 ]
+290 silly gunzTarPerm extractEntry lib/__tests__/isError-test.js
+291 silly gunzTarPerm modified mode [ 'lib/__tests__/isError-test.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry lib/__tests__/isFSA-test.js
+293 silly gunzTarPerm modified mode [ 'lib/__tests__/isFSA-test.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry lib/__tests__/reduceReducers-test.js
+295 silly gunzTarPerm modified mode [ 'lib/__tests__/reduceReducers-test.js', 420, 438 ]
+296 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers\package.json
+297 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\package.json
+298 info preinstall reduce-reducers@0.1.2
+299 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers\package.json
+300 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers\package.json
+301 info preinstall flux-standard-action@0.6.1
+302 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\package.json
+303 silly install resolved []
+304 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+305 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+306 silly prepareForInstallMany adding lodash.isplainobject@^3.2.0 from flux-standard-action dependencies
+307 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\package.json
+308 info linkStuff reduce-reducers@0.1.2
+309 silly linkStuff reduce-reducers@0.1.2 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules as its parent node_modules
+310 silly cache add args [ 'lodash.isplainobject@^3.2.0', null ]
+311 verbose cache add spec lodash.isplainobject@^3.2.0
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'lodash.isplainobject@^3.2.0',
+312 silly cache add   scope: null,
+312 silly cache add   name: 'lodash.isplainobject',
+312 silly cache add   rawSpec: '^3.2.0',
+312 silly cache add   spec: '>=3.2.0 <4.0.0',
+312 silly cache add   type: 'range' }
+313 silly addNamed lodash.isplainobject@>=3.2.0 <4.0.0
+314 verbose addNamed ">=3.2.0 <4.0.0" is a valid semver range for lodash.isplainobject
+315 silly addNameRange { name: 'lodash.isplainobject',
+315 silly addNameRange   range: '>=3.2.0 <4.0.0',
+315 silly addNameRange   hasData: false }
+316 silly mapToRegistry name lodash.isplainobject
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry data Result {
+319 silly mapToRegistry   raw: 'lodash.isplainobject',
+319 silly mapToRegistry   scope: null,
+319 silly mapToRegistry   name: 'lodash.isplainobject',
+319 silly mapToRegistry   rawSpec: '',
+319 silly mapToRegistry   spec: 'latest',
+319 silly mapToRegistry   type: 'tag' }
+320 silly mapToRegistry uri https://registry.npmjs.org/lodash.isplainobject
+321 verbose addNameRange registry:https://registry.npmjs.org/lodash.isplainobject not in flight; fetching
+322 verbose linkBins reduce-reducers@0.1.2
+323 verbose linkMans reduce-reducers@0.1.2
+324 verbose rebuildBundles reduce-reducers@0.1.2
+325 info install reduce-reducers@0.1.2
+326 info postinstall reduce-reducers@0.1.2
+327 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\reduce-reducers-55084e1351a72772.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\reduce-reducers
+328 verbose request uri https://registry.npmjs.org/lodash.isplainobject
+329 verbose request no auth needed
+330 info attempt registry request try #1 at 10:25:06 PM
+331 verbose etag "CDAFJ27I4N0ATN0XQHO8N9879"
+332 http request GET https://registry.npmjs.org/lodash.isplainobject
+333 http 200 https://registry.npmjs.org/lodash.isplainobject
+334 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+334 verbose headers   etag: '"CIPQZJV4ON81SR651BYOHBE15"',
+334 verbose headers   'content-type': 'application/json',
+334 verbose headers   'content-encoding': 'gzip',
+334 verbose headers   'cache-control': 'max-age=300',
+334 verbose headers   'content-length': '3483',
+334 verbose headers   'accept-ranges': 'bytes',
+334 verbose headers   date: 'Thu, 26 May 2016 05:25:12 GMT',
+334 verbose headers   via: '1.1 varnish',
+334 verbose headers   age: '62',
+334 verbose headers   connection: 'keep-alive',
+334 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+334 verbose headers   'x-cache': 'HIT',
+334 verbose headers   'x-cache-hits': '1',
+334 verbose headers   'x-timer': 'S1464240312.160461,VS0,VE0',
+334 verbose headers   vary: 'Accept-Encoding' }
+335 silly get cb [ 200,
+335 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+335 silly get     etag: '"CIPQZJV4ON81SR651BYOHBE15"',
+335 silly get     'content-type': 'application/json',
+335 silly get     'content-encoding': 'gzip',
+335 silly get     'cache-control': 'max-age=300',
+335 silly get     'content-length': '3483',
+335 silly get     'accept-ranges': 'bytes',
+335 silly get     date: 'Thu, 26 May 2016 05:25:12 GMT',
+335 silly get     via: '1.1 varnish',
+335 silly get     age: '62',
+335 silly get     connection: 'keep-alive',
+335 silly get     'x-served-by': 'cache-lax1427-LAX',
+335 silly get     'x-cache': 'HIT',
+335 silly get     'x-cache-hits': '1',
+335 silly get     'x-timer': 'S1464240312.160461,VS0,VE0',
+335 silly get     vary: 'Accept-Encoding' } ]
+336 verbose get saving lodash.isplainobject to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.isplainobject\.cache.json
+337 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+338 silly addNameRange number 2 { name: 'lodash.isplainobject',
+338 silly addNameRange   range: '>=3.2.0 <4.0.0',
+338 silly addNameRange   hasData: true }
+339 silly addNameRange versions [ 'lodash.isplainobject',
+339 silly addNameRange   [ '2.0.0',
+339 silly addNameRange     '2.1.0',
+339 silly addNameRange     '2.2.0',
+339 silly addNameRange     '2.2.1',
+339 silly addNameRange     '2.3.0',
+339 silly addNameRange     '2.4.0',
+339 silly addNameRange     '2.4.1',
+339 silly addNameRange     '3.0.0',
+339 silly addNameRange     '3.0.1',
+339 silly addNameRange     '3.0.2',
+339 silly addNameRange     '3.1.0',
+339 silly addNameRange     '3.2.0',
+339 silly addNameRange     '4.0.0',
+339 silly addNameRange     '4.0.1',
+339 silly addNameRange     '4.0.2',
+339 silly addNameRange     '4.0.3',
+339 silly addNameRange     '4.0.4' ] ]
+340 silly addNamed lodash.isplainobject@3.2.0
+341 verbose addNamed "3.2.0" is a plain semver version for lodash.isplainobject
+342 silly cache afterAdd lodash.isplainobject@3.2.0
+343 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isplainobject\3.2.0\package\package.json not in flight; writing
+344 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+345 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isplainobject\3.2.0\package\package.json written
+346 silly install resolved [ { name: 'lodash.isplainobject',
+346 silly install resolved     version: '3.2.0',
+346 silly install resolved     description: 'The modern build of lodash’s `_.isPlainObject` as a module.',
+346 silly install resolved     homepage: 'https://lodash.com/',
+346 silly install resolved     icon: 'https://lodash.com/icon.svg',
+346 silly install resolved     license: 'MIT',
+346 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+346 silly install resolved     author:
+346 silly install resolved      { name: 'John-David Dalton',
+346 silly install resolved        email: 'john.david.dalton@gmail.com',
+346 silly install resolved        url: 'http://allyoucanleet.com/' },
+346 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+346 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+346 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+346 silly install resolved     dependencies:
+346 silly install resolved      { 'lodash._basefor': '^3.0.0',
+346 silly install resolved        'lodash.isarguments': '^3.0.0',
+346 silly install resolved        'lodash.keysin': '^3.0.0' },
+346 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+346 silly install resolved     _id: 'lodash.isplainobject@3.2.0',
+346 silly install resolved     _shasum: '9a8238ae16b200432960cd7346512d0123fbf4c5',
+346 silly install resolved     _from: 'lodash.isplainobject@>=3.2.0 <4.0.0',
+346 silly install resolved     _npmVersion: '2.12.0',
+346 silly install resolved     _nodeVersion: '0.12.5',
+346 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+346 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+346 silly install resolved     dist:
+346 silly install resolved      { shasum: '9a8238ae16b200432960cd7346512d0123fbf4c5',
+346 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-3.2.0.tgz' },
+346 silly install resolved     directories: {},
+346 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isplainobject/-/lodash.isplainobject-3.2.0.tgz',
+346 silly install resolved     readme: 'ERROR: No README data found!' } ]
+347 info install lodash.isplainobject@3.2.0 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+348 info installOne lodash.isplainobject@3.2.0
+349 verbose installOne of lodash.isplainobject to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action not in flight; installing
+350 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+351 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isplainobject-1ab4de18d70c9fe2.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+352 silly install write writing lodash.isplainobject 3.2.0 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+353 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+354 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+355 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+356 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isplainobject\3.2.0\package.tgz
+357 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+358 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject is being purged
+359 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+360 silly gunzTarPerm modes [ '777', '666' ]
+361 silly gunzTarPerm extractEntry package.json
+362 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+363 silly gunzTarPerm extractEntry README.md
+364 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+365 silly gunzTarPerm extractEntry LICENSE
+366 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+367 silly gunzTarPerm extractEntry index.js
+368 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+369 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\package.json
+370 info preinstall lodash.isplainobject@3.2.0
+371 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\package.json
+372 silly prepareForInstallMany adding lodash._basefor@^3.0.0 from lodash.isplainobject dependencies
+373 silly prepareForInstallMany adding lodash.isarguments@^3.0.0 from lodash.isplainobject dependencies
+374 silly prepareForInstallMany adding lodash.keysin@^3.0.0 from lodash.isplainobject dependencies
+375 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\package.json
+376 silly cache add args [ 'lodash._basefor@^3.0.0', null ]
+377 verbose cache add spec lodash._basefor@^3.0.0
+378 silly cache add args [ 'lodash.isarguments@^3.0.0', null ]
+379 verbose cache add spec lodash.isarguments@^3.0.0
+380 silly cache add parsed spec Result {
+380 silly cache add   raw: 'lodash._basefor@^3.0.0',
+380 silly cache add   scope: null,
+380 silly cache add   name: 'lodash._basefor',
+380 silly cache add   rawSpec: '^3.0.0',
+380 silly cache add   spec: '>=3.0.0 <4.0.0',
+380 silly cache add   type: 'range' }
+381 silly addNamed lodash._basefor@>=3.0.0 <4.0.0
+382 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._basefor
+383 silly addNameRange { name: 'lodash._basefor',
+383 silly addNameRange   range: '>=3.0.0 <4.0.0',
+383 silly addNameRange   hasData: false }
+384 silly mapToRegistry name lodash._basefor
+385 silly mapToRegistry using default registry
+386 silly mapToRegistry registry https://registry.npmjs.org/
+387 silly mapToRegistry data Result {
+387 silly mapToRegistry   raw: 'lodash._basefor',
+387 silly mapToRegistry   scope: null,
+387 silly mapToRegistry   name: 'lodash._basefor',
+387 silly mapToRegistry   rawSpec: '',
+387 silly mapToRegistry   spec: 'latest',
+387 silly mapToRegistry   type: 'tag' }
+388 silly mapToRegistry uri https://registry.npmjs.org/lodash._basefor
+389 verbose addNameRange registry:https://registry.npmjs.org/lodash._basefor not in flight; fetching
+390 silly cache add parsed spec Result {
+390 silly cache add   raw: 'lodash.isarguments@^3.0.0',
+390 silly cache add   scope: null,
+390 silly cache add   name: 'lodash.isarguments',
+390 silly cache add   rawSpec: '^3.0.0',
+390 silly cache add   spec: '>=3.0.0 <4.0.0',
+390 silly cache add   type: 'range' }
+391 silly addNamed lodash.isarguments@>=3.0.0 <4.0.0
+392 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarguments
+393 silly addNameRange { name: 'lodash.isarguments',
+393 silly addNameRange   range: '>=3.0.0 <4.0.0',
+393 silly addNameRange   hasData: false }
+394 silly mapToRegistry name lodash.isarguments
+395 silly mapToRegistry using default registry
+396 silly mapToRegistry registry https://registry.npmjs.org/
+397 silly mapToRegistry data Result {
+397 silly mapToRegistry   raw: 'lodash.isarguments',
+397 silly mapToRegistry   scope: null,
+397 silly mapToRegistry   name: 'lodash.isarguments',
+397 silly mapToRegistry   rawSpec: '',
+397 silly mapToRegistry   spec: 'latest',
+397 silly mapToRegistry   type: 'tag' }
+398 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarguments
+399 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarguments not in flight; fetching
+400 silly cache add args [ 'lodash.keysin@^3.0.0', null ]
+401 verbose cache add spec lodash.keysin@^3.0.0
+402 silly cache add parsed spec Result {
+402 silly cache add   raw: 'lodash.keysin@^3.0.0',
+402 silly cache add   scope: null,
+402 silly cache add   name: 'lodash.keysin',
+402 silly cache add   rawSpec: '^3.0.0',
+402 silly cache add   spec: '>=3.0.0 <4.0.0',
+402 silly cache add   type: 'range' }
+403 silly addNamed lodash.keysin@>=3.0.0 <4.0.0
+404 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.keysin
+405 silly addNameRange { name: 'lodash.keysin',
+405 silly addNameRange   range: '>=3.0.0 <4.0.0',
+405 silly addNameRange   hasData: false }
+406 silly mapToRegistry name lodash.keysin
+407 silly mapToRegistry using default registry
+408 silly mapToRegistry registry https://registry.npmjs.org/
+409 silly mapToRegistry data Result {
+409 silly mapToRegistry   raw: 'lodash.keysin',
+409 silly mapToRegistry   scope: null,
+409 silly mapToRegistry   name: 'lodash.keysin',
+409 silly mapToRegistry   rawSpec: '',
+409 silly mapToRegistry   spec: 'latest',
+409 silly mapToRegistry   type: 'tag' }
+410 silly mapToRegistry uri https://registry.npmjs.org/lodash.keysin
+411 verbose addNameRange registry:https://registry.npmjs.org/lodash.keysin not in flight; fetching
+412 verbose request uri https://registry.npmjs.org/lodash.keysin
+413 verbose request no auth needed
+414 info attempt registry request try #1 at 10:25:06 PM
+415 verbose etag "85FN7V7081ASKSOLRIEYO9HGK"
+416 http request GET https://registry.npmjs.org/lodash.keysin
+417 verbose request uri https://registry.npmjs.org/lodash._basefor
+418 verbose request no auth needed
+419 info attempt registry request try #1 at 10:25:06 PM
+420 verbose etag "7WBP01X8D1CGCDJNZU8SEJTMV"
+421 http request GET https://registry.npmjs.org/lodash._basefor
+422 verbose request uri https://registry.npmjs.org/lodash.isarguments
+423 verbose request no auth needed
+424 info attempt registry request try #1 at 10:25:06 PM
+425 verbose etag "4F2JMSY336E868CO546R6TX7A"
+426 http request GET https://registry.npmjs.org/lodash.isarguments
+427 http 304 https://registry.npmjs.org/lodash.keysin
+428 verbose headers { date: 'Thu, 26 May 2016 05:25:12 GMT',
+428 verbose headers   via: '1.1 varnish',
+428 verbose headers   'cache-control': 'max-age=300',
+428 verbose headers   etag: '"85FN7V7081ASKSOLRIEYO9HGK"',
+428 verbose headers   age: '236',
+428 verbose headers   connection: 'keep-alive',
+428 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+428 verbose headers   'x-cache': 'HIT',
+428 verbose headers   'x-cache-hits': '1',
+428 verbose headers   'x-timer': 'S1464240312.269982,VS0,VE0',
+428 verbose headers   vary: 'Accept-Encoding' }
+429 silly get cb [ 304,
+429 silly get   { date: 'Thu, 26 May 2016 05:25:12 GMT',
+429 silly get     via: '1.1 varnish',
+429 silly get     'cache-control': 'max-age=300',
+429 silly get     etag: '"85FN7V7081ASKSOLRIEYO9HGK"',
+429 silly get     age: '236',
+429 silly get     connection: 'keep-alive',
+429 silly get     'x-served-by': 'cache-lax1424-LAX',
+429 silly get     'x-cache': 'HIT',
+429 silly get     'x-cache-hits': '1',
+429 silly get     'x-timer': 'S1464240312.269982,VS0,VE0',
+429 silly get     vary: 'Accept-Encoding' } ]
+430 verbose etag https://registry.npmjs.org/lodash.keysin from cache
+431 verbose get saving lodash.keysin to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.keysin\.cache.json
+432 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+433 http 304 https://registry.npmjs.org/lodash._basefor
+434 verbose headers { date: 'Thu, 26 May 2016 05:25:12 GMT',
+434 verbose headers   via: '1.1 varnish',
+434 verbose headers   'cache-control': 'max-age=300',
+434 verbose headers   etag: '"7WBP01X8D1CGCDJNZU8SEJTMV"',
+434 verbose headers   age: '94',
+434 verbose headers   connection: 'keep-alive',
+434 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+434 verbose headers   'x-cache': 'HIT',
+434 verbose headers   'x-cache-hits': '1',
+434 verbose headers   'x-timer': 'S1464240312.271204,VS0,VE0',
+434 verbose headers   vary: 'Accept-Encoding' }
+435 silly get cb [ 304,
+435 silly get   { date: 'Thu, 26 May 2016 05:25:12 GMT',
+435 silly get     via: '1.1 varnish',
+435 silly get     'cache-control': 'max-age=300',
+435 silly get     etag: '"7WBP01X8D1CGCDJNZU8SEJTMV"',
+435 silly get     age: '94',
+435 silly get     connection: 'keep-alive',
+435 silly get     'x-served-by': 'cache-lax1427-LAX',
+435 silly get     'x-cache': 'HIT',
+435 silly get     'x-cache-hits': '1',
+435 silly get     'x-timer': 'S1464240312.271204,VS0,VE0',
+435 silly get     vary: 'Accept-Encoding' } ]
+436 verbose etag https://registry.npmjs.org/lodash._basefor from cache
+437 verbose get saving lodash._basefor to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\lodash._basefor\.cache.json
+438 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+439 silly addNameRange number 2 { name: 'lodash._basefor',
+439 silly addNameRange   range: '>=3.0.0 <4.0.0',
+439 silly addNameRange   hasData: true }
+440 silly addNameRange versions [ 'lodash._basefor', [ '3.0.0', '3.0.1', '3.0.2', '3.0.3' ] ]
+441 silly addNamed lodash._basefor@3.0.3
+442 verbose addNamed "3.0.3" is a plain semver version for lodash._basefor
+443 silly addNameRange number 2 { name: 'lodash.keysin', range: '>=3.0.0 <4.0.0', hasData: true }
+444 silly addNameRange versions [ 'lodash.keysin',
+444 silly addNameRange   [ '3.0.0',
+444 silly addNameRange     '3.0.1',
+444 silly addNameRange     '3.0.2',
+444 silly addNameRange     '3.0.3',
+444 silly addNameRange     '3.0.4',
+444 silly addNameRange     '3.0.5',
+444 silly addNameRange     '3.0.6',
+444 silly addNameRange     '3.0.7',
+444 silly addNameRange     '3.0.8',
+444 silly addNameRange     '4.0.0',
+444 silly addNameRange     '4.0.1',
+444 silly addNameRange     '4.0.2',
+444 silly addNameRange     '4.1.0',
+444 silly addNameRange     '4.1.1',
+444 silly addNameRange     '4.1.2',
+444 silly addNameRange     '4.1.3',
+444 silly addNameRange     '4.1.4' ] ]
+445 silly addNamed lodash.keysin@3.0.8
+446 verbose addNamed "3.0.8" is a plain semver version for lodash.keysin
+447 silly cache afterAdd lodash._basefor@3.0.3
+448 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash._basefor\3.0.3\package\package.json not in flight; writing
+449 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+450 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash._basefor\3.0.3\package\package.json written
+451 silly cache afterAdd lodash.keysin@3.0.8
+452 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.keysin\3.0.8\package\package.json not in flight; writing
+453 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+454 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.keysin\3.0.8\package\package.json written
+455 http 304 https://registry.npmjs.org/lodash.isarguments
+456 verbose headers { date: 'Thu, 26 May 2016 05:25:12 GMT',
+456 verbose headers   via: '1.1 varnish',
+456 verbose headers   'cache-control': 'max-age=300',
+456 verbose headers   etag: '"4F2JMSY336E868CO546R6TX7A"',
+456 verbose headers   age: '100',
+456 verbose headers   connection: 'keep-alive',
+456 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+456 verbose headers   'x-cache': 'HIT',
+456 verbose headers   'x-cache-hits': '87',
+456 verbose headers   'x-timer': 'S1464240312.329317,VS0,VE0',
+456 verbose headers   vary: 'Accept-Encoding' }
+457 silly get cb [ 304,
+457 silly get   { date: 'Thu, 26 May 2016 05:25:12 GMT',
+457 silly get     via: '1.1 varnish',
+457 silly get     'cache-control': 'max-age=300',
+457 silly get     etag: '"4F2JMSY336E868CO546R6TX7A"',
+457 silly get     age: '100',
+457 silly get     connection: 'keep-alive',
+457 silly get     'x-served-by': 'cache-lax1435-LAX',
+457 silly get     'x-cache': 'HIT',
+457 silly get     'x-cache-hits': '87',
+457 silly get     'x-timer': 'S1464240312.329317,VS0,VE0',
+457 silly get     vary: 'Accept-Encoding' } ]
+458 verbose etag https://registry.npmjs.org/lodash.isarguments from cache
+459 verbose get saving lodash.isarguments to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.isarguments\.cache.json
+460 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+461 silly addNameRange number 2 { name: 'lodash.isarguments',
+461 silly addNameRange   range: '>=3.0.0 <4.0.0',
+461 silly addNameRange   hasData: true }
+462 silly addNameRange versions [ 'lodash.isarguments',
+462 silly addNameRange   [ '2.0.0',
+462 silly addNameRange     '2.1.0',
+462 silly addNameRange     '2.2.0',
+462 silly addNameRange     '2.2.1',
+462 silly addNameRange     '2.3.0',
+462 silly addNameRange     '2.4.0',
+462 silly addNameRange     '2.4.1',
+462 silly addNameRange     '3.0.0',
+462 silly addNameRange     '3.0.1',
+462 silly addNameRange     '3.0.2',
+462 silly addNameRange     '3.0.3',
+462 silly addNameRange     '3.0.4',
+462 silly addNameRange     '3.0.5',
+462 silly addNameRange     '3.0.6',
+462 silly addNameRange     '3.0.7',
+462 silly addNameRange     '3.0.8' ] ]
+463 silly addNamed lodash.isarguments@3.0.8
+464 verbose addNamed "3.0.8" is a plain semver version for lodash.isarguments
+465 silly cache afterAdd lodash.isarguments@3.0.8
+466 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package\package.json not in flight; writing
+467 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+468 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package\package.json written
+469 silly install resolved [ { name: 'lodash._basefor',
+469 silly install resolved     version: '3.0.3',
+469 silly install resolved     description: 'The internal lodash function `baseFor` exported as a module.',
+469 silly install resolved     homepage: 'https://lodash.com/',
+469 silly install resolved     icon: 'https://lodash.com/icon.svg',
+469 silly install resolved     license: 'MIT',
+469 silly install resolved     author:
+469 silly install resolved      { name: 'John-David Dalton',
+469 silly install resolved        email: 'john.david.dalton@gmail.com',
+469 silly install resolved        url: 'http://allyoucanleet.com/' },
+469 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+469 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+469 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+469 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+469 silly install resolved     _id: 'lodash._basefor@3.0.3',
+469 silly install resolved     _shasum: '7550b4e9218ef09fad24343b612021c79b4c20c2',
+469 silly install resolved     _from: 'lodash._basefor@>=3.0.0 <4.0.0',
+469 silly install resolved     _npmVersion: '2.14.15',
+469 silly install resolved     _nodeVersion: '5.4.0',
+469 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+469 silly install resolved     dist:
+469 silly install resolved      { shasum: '7550b4e9218ef09fad24343b612021c79b4c20c2',
+469 silly install resolved        tarball: 'https://registry.npmjs.org/lodash._basefor/-/lodash._basefor-3.0.3.tgz' },
+469 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+469 silly install resolved     directories: {},
+469 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._basefor/-/lodash._basefor-3.0.3.tgz',
+469 silly install resolved     readme: 'ERROR: No README data found!' },
+469 silly install resolved   { name: 'lodash.keysin',
+469 silly install resolved     version: '3.0.8',
+469 silly install resolved     description: 'The modern build of lodash’s `_.keysIn` as a module.',
+469 silly install resolved     homepage: 'https://lodash.com/',
+469 silly install resolved     icon: 'https://lodash.com/icon.svg',
+469 silly install resolved     license: 'MIT',
+469 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+469 silly install resolved     author:
+469 silly install resolved      { name: 'John-David Dalton',
+469 silly install resolved        email: 'john.david.dalton@gmail.com',
+469 silly install resolved        url: 'http://allyoucanleet.com/' },
+469 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+469 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+469 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+469 silly install resolved     dependencies: { 'lodash.isarguments': '^3.0.0', 'lodash.isarray': '^3.0.0' },
+469 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+469 silly install resolved     _id: 'lodash.keysin@3.0.8',
+469 silly install resolved     _shasum: '22c4493ebbedb1427962a54b445b2c8a767fb47f',
+469 silly install resolved     _from: 'lodash.keysin@>=3.0.0 <4.0.0',
+469 silly install resolved     _npmVersion: '2.10.1',
+469 silly install resolved     _nodeVersion: '2.0.2',
+469 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+469 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+469 silly install resolved     dist:
+469 silly install resolved      { shasum: '22c4493ebbedb1427962a54b445b2c8a767fb47f',
+469 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-3.0.8.tgz' },
+469 silly install resolved     directories: {},
+469 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.keysin/-/lodash.keysin-3.0.8.tgz',
+469 silly install resolved     readme: 'ERROR: No README data found!' },
+469 silly install resolved   { name: 'lodash.isarguments',
+469 silly install resolved     version: '3.0.8',
+469 silly install resolved     description: 'The lodash method `_.isArguments` exported as a module.',
+469 silly install resolved     homepage: 'https://lodash.com/',
+469 silly install resolved     icon: 'https://lodash.com/icon.svg',
+469 silly install resolved     license: 'MIT',
+469 silly install resolved     keywords: [ 'lodash-modularized', 'isarguments' ],
+469 silly install resolved     author:
+469 silly install resolved      { name: 'John-David Dalton',
+469 silly install resolved        email: 'john.david.dalton@gmail.com',
+469 silly install resolved        url: 'http://allyoucanleet.com/' },
+469 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+469 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+469 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+469 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+469 silly install resolved     _id: 'lodash.isarguments@3.0.8',
+469 silly install resolved     _shasum: '5bf8da887f01f2a9e49c0a175cdaeb318a0e43dc',
+469 silly install resolved     _from: 'lodash.isarguments@>=3.0.0 <4.0.0',
+469 silly install resolved     _npmVersion: '2.14.17',
+469 silly install resolved     _nodeVersion: '5.5.0',
+469 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+469 silly install resolved     dist:
+469 silly install resolved      { shasum: '5bf8da887f01f2a9e49c0a175cdaeb318a0e43dc',
+469 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.0.8.tgz' },
+469 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+469 silly install resolved     _npmOperationalInternal:
+469 silly install resolved      { host: 'packages-13-west.internal.npmjs.com',
+469 silly install resolved        tmp: 'tmp/lodash.isarguments-3.0.8.tgz_1456896618197_0.925266777863726' },
+469 silly install resolved     directories: {},
+469 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarguments/-/lodash.isarguments-3.0.8.tgz',
+469 silly install resolved     readme: 'ERROR: No README data found!' } ]
+470 info install lodash._basefor@3.0.3 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+471 info install lodash.keysin@3.0.8 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+472 info install lodash.isarguments@3.0.8 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+473 info installOne lodash._basefor@3.0.3
+474 verbose installOne of lodash._basefor to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject not in flight; installing
+475 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+476 info installOne lodash.keysin@3.0.8
+477 verbose installOne of lodash.keysin to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject not in flight; installing
+478 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+479 info installOne lodash.isarguments@3.0.8
+480 verbose installOne of lodash.isarguments to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject not in flight; installing
+481 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+482 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-basefor-d8f22e76489eb937.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+483 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isarguments-bad43256746b8118.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+484 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-keysin-0ded42e5e91919d7.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+485 silly install write writing lodash._basefor 3.0.3 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+486 silly install write writing lodash.isarguments 3.0.8 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+487 silly install write writing lodash.keysin 3.0.8 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+488 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+489 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+490 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+491 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+492 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+493 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+494 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+495 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\lodash._basefor\3.0.3\package.tgz
+496 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+497 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor is being purged
+498 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+499 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarguments\3.0.8\package.tgz
+500 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+501 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments is being purged
+502 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+503 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+504 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+505 silly gunzTarPerm modes [ '777', '666' ]
+506 silly gunzTarPerm modes [ '777', '666' ]
+507 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\lodash.keysin\3.0.8\package.tgz
+508 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+509 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin is being purged
+510 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+511 silly gunzTarPerm modes [ '777', '666' ]
+512 silly gunzTarPerm extractEntry package.json
+513 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+514 silly gunzTarPerm extractEntry package.json
+515 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+516 silly gunzTarPerm extractEntry package.json
+517 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+518 silly gunzTarPerm extractEntry README.md
+519 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+520 silly gunzTarPerm extractEntry LICENSE
+521 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+522 silly gunzTarPerm extractEntry README.md
+523 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+524 silly gunzTarPerm extractEntry LICENSE
+525 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+526 silly gunzTarPerm extractEntry README.md
+527 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+528 silly gunzTarPerm extractEntry index.js
+529 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry index.js
+531 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry index.js
+533 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+534 silly gunzTarPerm extractEntry LICENSE.txt
+535 silly gunzTarPerm modified mode [ 'LICENSE.txt', 420, 438 ]
+536 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor\package.json
+537 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\package.json
+538 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments\package.json
+539 info preinstall lodash._basefor@3.0.3
+540 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor\package.json
+541 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor\package.json
+542 info preinstall lodash.keysin@3.0.8
+543 info preinstall lodash.isarguments@3.0.8
+544 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\package.json
+545 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments\package.json
+546 silly install resolved []
+547 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+548 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+549 silly prepareForInstallMany adding lodash.isarray@^3.0.0 from lodash.keysin dependencies
+550 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\package.json
+551 info linkStuff lodash._basefor@3.0.3
+552 silly linkStuff lodash._basefor@3.0.3 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules as its parent node_modules
+553 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments\package.json
+554 silly cache add args [ 'lodash.isarray@^3.0.0', null ]
+555 verbose cache add spec lodash.isarray@^3.0.0
+556 silly cache add parsed spec Result {
+556 silly cache add   raw: 'lodash.isarray@^3.0.0',
+556 silly cache add   scope: null,
+556 silly cache add   name: 'lodash.isarray',
+556 silly cache add   rawSpec: '^3.0.0',
+556 silly cache add   spec: '>=3.0.0 <4.0.0',
+556 silly cache add   type: 'range' }
+557 silly addNamed lodash.isarray@>=3.0.0 <4.0.0
+558 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.isarray
+559 silly addNameRange { name: 'lodash.isarray',
+559 silly addNameRange   range: '>=3.0.0 <4.0.0',
+559 silly addNameRange   hasData: false }
+560 silly mapToRegistry name lodash.isarray
+561 silly mapToRegistry using default registry
+562 silly mapToRegistry registry https://registry.npmjs.org/
+563 silly mapToRegistry data Result {
+563 silly mapToRegistry   raw: 'lodash.isarray',
+563 silly mapToRegistry   scope: null,
+563 silly mapToRegistry   name: 'lodash.isarray',
+563 silly mapToRegistry   rawSpec: '',
+563 silly mapToRegistry   spec: 'latest',
+563 silly mapToRegistry   type: 'tag' }
+564 silly mapToRegistry uri https://registry.npmjs.org/lodash.isarray
+565 verbose addNameRange registry:https://registry.npmjs.org/lodash.isarray not in flight; fetching
+566 silly install resolved []
+567 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+568 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+569 info linkStuff lodash.isarguments@3.0.8
+570 silly linkStuff lodash.isarguments@3.0.8 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules as its parent node_modules
+571 verbose linkBins lodash._basefor@3.0.3
+572 verbose linkMans lodash._basefor@3.0.3
+573 verbose rebuildBundles lodash._basefor@3.0.3
+574 info install lodash._basefor@3.0.3
+575 info postinstall lodash._basefor@3.0.3
+576 verbose request uri https://registry.npmjs.org/lodash.isarray
+577 verbose request no auth needed
+578 info attempt registry request try #1 at 10:25:07 PM
+579 verbose etag "DD13L05CGB0BXKMJO8EVTLF3F"
+580 http request GET https://registry.npmjs.org/lodash.isarray
+581 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-basefor-d8f22e76489eb937.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash._basefor
+582 verbose linkBins lodash.isarguments@3.0.8
+583 verbose linkMans lodash.isarguments@3.0.8
+584 verbose rebuildBundles lodash.isarguments@3.0.8
+585 info install lodash.isarguments@3.0.8
+586 info postinstall lodash.isarguments@3.0.8
+587 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isarguments-bad43256746b8118.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.isarguments
+588 http 200 https://registry.npmjs.org/lodash.isarray
+589 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+589 verbose headers   etag: '"3K3TD49IRIQMDH5WIIJU4IVVD"',
+589 verbose headers   'content-type': 'application/json',
+589 verbose headers   'content-encoding': 'gzip',
+589 verbose headers   'cache-control': 'max-age=300',
+589 verbose headers   'content-length': '2761',
+589 verbose headers   'accept-ranges': 'bytes',
+589 verbose headers   date: 'Thu, 26 May 2016 05:25:12 GMT',
+589 verbose headers   via: '1.1 varnish',
+589 verbose headers   age: '143',
+589 verbose headers   connection: 'keep-alive',
+589 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+589 verbose headers   'x-cache': 'HIT',
+589 verbose headers   'x-cache-hits': '2',
+589 verbose headers   'x-timer': 'S1464240312.466766,VS0,VE0',
+589 verbose headers   vary: 'Accept-Encoding' }
+590 silly get cb [ 200,
+590 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+590 silly get     etag: '"3K3TD49IRIQMDH5WIIJU4IVVD"',
+590 silly get     'content-type': 'application/json',
+590 silly get     'content-encoding': 'gzip',
+590 silly get     'cache-control': 'max-age=300',
+590 silly get     'content-length': '2761',
+590 silly get     'accept-ranges': 'bytes',
+590 silly get     date: 'Thu, 26 May 2016 05:25:12 GMT',
+590 silly get     via: '1.1 varnish',
+590 silly get     age: '143',
+590 silly get     connection: 'keep-alive',
+590 silly get     'x-served-by': 'cache-lax1424-LAX',
+590 silly get     'x-cache': 'HIT',
+590 silly get     'x-cache-hits': '2',
+590 silly get     'x-timer': 'S1464240312.466766,VS0,VE0',
+590 silly get     vary: 'Accept-Encoding' } ]
+591 verbose get saving lodash.isarray to C:\Users\Victor\AppData\Roaming\npm-cache\registry.npmjs.org\lodash.isarray\.cache.json
+592 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+593 silly addNameRange number 2 { name: 'lodash.isarray',
+593 silly addNameRange   range: '>=3.0.0 <4.0.0',
+593 silly addNameRange   hasData: true }
+594 silly addNameRange versions [ 'lodash.isarray',
+594 silly addNameRange   [ '2.0.0',
+594 silly addNameRange     '2.1.0',
+594 silly addNameRange     '2.2.0',
+594 silly addNameRange     '2.2.1',
+594 silly addNameRange     '2.3.0',
+594 silly addNameRange     '2.4.0',
+594 silly addNameRange     '2.4.1',
+594 silly addNameRange     '3.0.0',
+594 silly addNameRange     '3.0.1',
+594 silly addNameRange     '3.0.2',
+594 silly addNameRange     '3.0.3',
+594 silly addNameRange     '3.0.4',
+594 silly addNameRange     '4.0.0' ] ]
+595 silly addNamed lodash.isarray@3.0.4
+596 verbose addNamed "3.0.4" is a plain semver version for lodash.isarray
+597 silly cache afterAdd lodash.isarray@3.0.4
+598 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package\package.json not in flight; writing
+599 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+600 verbose afterAdd C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package\package.json written
+601 silly install resolved [ { name: 'lodash.isarray',
+601 silly install resolved     version: '3.0.4',
+601 silly install resolved     description: 'The modern build of lodash’s `_.isArray` as a module.',
+601 silly install resolved     homepage: 'https://lodash.com/',
+601 silly install resolved     icon: 'https://lodash.com/icon.svg',
+601 silly install resolved     license: 'MIT',
+601 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+601 silly install resolved     author:
+601 silly install resolved      { name: 'John-David Dalton',
+601 silly install resolved        email: 'john.david.dalton@gmail.com',
+601 silly install resolved        url: 'http://allyoucanleet.com/' },
+601 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+601 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+601 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+601 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+601 silly install resolved     _id: 'lodash.isarray@3.0.4',
+601 silly install resolved     _shasum: '79e4eb88c36a8122af86f844aa9bcd851b5fbb55',
+601 silly install resolved     _from: 'lodash.isarray@>=3.0.0 <4.0.0',
+601 silly install resolved     _npmVersion: '2.12.0',
+601 silly install resolved     _nodeVersion: '0.12.5',
+601 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+601 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+601 silly install resolved     dist:
+601 silly install resolved      { shasum: '79e4eb88c36a8122af86f844aa9bcd851b5fbb55',
+601 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz' },
+601 silly install resolved     directories: {},
+601 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz',
+601 silly install resolved     readme: 'ERROR: No README data found!' } ]
+602 info install lodash.isarray@3.0.4 into C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+603 info installOne lodash.isarray@3.0.4
+604 verbose installOne of lodash.isarray to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin not in flight; installing
+605 verbose correctMkdir C:\Users\Victor\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+606 verbose lock using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isarray-994c69c8e41ccc67.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+607 silly install write writing lodash.isarray 3.0.4 to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+608 verbose unbuild node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+609 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray is being purged from base C:\Users\Victor\Desktop\Ideaflow\notepad
+610 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+611 verbose tar unpack C:\Users\Victor\AppData\Roaming\npm-cache\lodash.isarray\3.0.4\package.tgz
+612 verbose tar unpacking to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+613 silly gentlyRm C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray is being purged
+614 verbose gentlyRm don't care about contents; nuking C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+615 silly gunzTarPerm modes [ '777', '666' ]
+616 silly gunzTarPerm extractEntry package.json
+617 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+618 silly gunzTarPerm extractEntry README.md
+619 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+620 silly gunzTarPerm extractEntry LICENSE
+621 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+622 silly gunzTarPerm extractEntry index.js
+623 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+624 verbose write writing to C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray\package.json
+625 info preinstall lodash.isarray@3.0.4
+626 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray\package.json
+627 verbose readDependencies loading dependencies from C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray\package.json
+628 silly install resolved []
+629 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+630 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+631 info linkStuff lodash.isarray@3.0.4
+632 silly linkStuff lodash.isarray@3.0.4 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules as its parent node_modules
+633 verbose linkBins lodash.isarray@3.0.4
+634 verbose linkMans lodash.isarray@3.0.4
+635 verbose rebuildBundles lodash.isarray@3.0.4
+636 info install lodash.isarray@3.0.4
+637 info postinstall lodash.isarray@3.0.4
+638 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isarray-994c69c8e41ccc67.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin\node_modules\lodash.isarray
+639 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+640 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+641 info linkStuff lodash.keysin@3.0.8
+642 silly linkStuff lodash.keysin@3.0.8 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules as its parent node_modules
+643 verbose linkBins lodash.keysin@3.0.8
+644 verbose linkMans lodash.keysin@3.0.8
+645 verbose rebuildBundles lodash.keysin@3.0.8
+646 verbose rebuildBundles [ 'lodash.isarray' ]
+647 info install lodash.keysin@3.0.8
+648 info postinstall lodash.keysin@3.0.8
+649 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-keysin-0ded42e5e91919d7.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject\node_modules\lodash.keysin
+650 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+651 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+652 info linkStuff lodash.isplainobject@3.2.0
+653 silly linkStuff lodash.isplainobject@3.2.0 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules as its parent node_modules
+654 verbose linkBins lodash.isplainobject@3.2.0
+655 verbose linkMans lodash.isplainobject@3.2.0
+656 verbose rebuildBundles lodash.isplainobject@3.2.0
+657 verbose rebuildBundles [ 'lodash._basefor', 'lodash.isarguments', 'lodash.keysin' ]
+658 info install lodash.isplainobject@3.2.0
+659 info postinstall lodash.isplainobject@3.2.0
+660 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\lodash-isplainobject-1ab4de18d70c9fe2.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action\node_modules\lodash.isplainobject
+661 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+662 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+663 info linkStuff flux-standard-action@0.6.1
+664 silly linkStuff flux-standard-action@0.6.1 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules as its parent node_modules
+665 verbose linkBins flux-standard-action@0.6.1
+666 verbose linkMans flux-standard-action@0.6.1
+667 verbose rebuildBundles flux-standard-action@0.6.1
+668 verbose rebuildBundles [ 'lodash.isplainobject' ]
+669 info install flux-standard-action@0.6.1
+670 info postinstall flux-standard-action@0.6.1
+671 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\flux-standard-action-156aba3bee85c3c9.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions\node_modules\flux-standard-action
+672 verbose about to build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+673 info build C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+674 info linkStuff redux-actions@0.9.1
+675 silly linkStuff redux-actions@0.9.1 has C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules as its parent node_modules
+676 verbose linkBins redux-actions@0.9.1
+677 verbose linkMans redux-actions@0.9.1
+678 verbose rebuildBundles redux-actions@0.9.1
+679 verbose rebuildBundles [ 'flux-standard-action', 'reduce-reducers' ]
+680 info install redux-actions@0.9.1
+681 info postinstall redux-actions@0.9.1
+682 verbose unlock done using C:\Users\Victor\AppData\Roaming\npm-cache\_locks\redux-actions-9092e2b55bee331b.lock for C:\Users\Victor\Desktop\Ideaflow\notepad\node_modules\redux-actions
+683 verbose validateInstall loading C:\Users\Victor\Desktop\Ideaflow\notepad\package.json for validation
+684 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+684 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+684 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+684 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+684 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+685 verbose cwd C:\Users\Victor\Desktop\Ideaflow\notepad
+686 error Windows_NT 10.0.10586
+687 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "redux-actions"
+688 error node v4.4.3
+689 error npm  v2.15.1
+690 error code EPEERINVALID
+691 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+691 error peerinvalid Peer react-dom@15.1.0 wants react@^15.1.0
+691 error peerinvalid Peer draft-js@0.7.0 wants react@^0.14.0 || ^15.0.0-rc
+692 verbose exit [ 1, true ]
